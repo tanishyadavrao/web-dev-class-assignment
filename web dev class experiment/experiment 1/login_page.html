@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+            
+        }
+        .con{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            background-color: antiquewhite;
+        }
+        .box{
+            border: 2px solid yellowgreen;
+            height: 560px;
+            width: 320px;
+            border-radius: 10px;
+            background-color: aquamarine;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        h1{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 50px;
+        
+        }
+        .email,.pass{
+            height: 40px;
+            width: 250px;
+            margin-top: 15px;
+            padding-left: 10px;
+            margin-left: 20px;
+        }
+        .email{
+            margin-top: 45px;
+        }
+        .login{
+            border: 2px solid white;
+            height: 35px;
+            width: 180px;
+            background-color: aliceblue;
+            margin-top: 30px;
+            margin-left:50px;
+            text-align: center;
+            border-radius: 7px;
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            font-weight: 400;
+            font-family:sans-serif ;
+        }
+        .login:hover{
+            cursor: pointer;
+            transform: scale(1.07);
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="con">
+    <div class="box">
+        <h1>Book store</h1>
+        
+        <input type="email"  placeholder="Email" class="email">
+        <input type="password" placeholder="Password" class="pass">
+        <a href="home.html" class="login">Log in</a>
+    </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            text-align: center;
+            width: 100vw;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+
+    <script>
+        let a= Number(prompt("enter the first no. "));
+        let b= Number(prompt("enter the second no. "));
+        console.log(a);
+        if(a>b){
+            document.querySelector(".box").innerHTML=`${a} is greater than ${b}`;
+        }
+        else if(a<b){
+            document.querySelector(".box").innerHTML=`${b} is greater than ${a}`;
+        }
+        else{
+            document.querySelector(".box").innerHTML="both are equal number";
+        }
+    </script>
+
+    
+</body>
+</html>
